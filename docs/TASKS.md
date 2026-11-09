@@ -17,7 +17,7 @@ Este arquivo divide a implementação em entregas progressivas para execução p
 
 ### T-01 — Preparar a infraestrutura de testes
 
-- **Status:** Pendente
+- **Status:** Concluída
 - **Depende de:** nenhuma
 - **Referências:** PRD §7 (Validação)
 - **Objetivo:** habilitar testes automatizados para as tarefas que verificam transformação de dados e estados da interface.
