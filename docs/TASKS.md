@@ -31,7 +31,7 @@ Este arquivo divide a implementação em entregas progressivas para execução p
 
 ### T-02 — Definir o contrato e normalizar dados da API
 
-- **Status:** Pendente
+- **Status:** Concluída
 - **Depende de:** T-01
 - **Referências:** PRD §4 (RF-02, RF-03), §6 (Requisitos do sistema e dados)
 - **Objetivo:** definir tipos para os dados externos e para o modelo de streamer usado pela interface, isolando as diferenças entre payload e modelo de exibição.
