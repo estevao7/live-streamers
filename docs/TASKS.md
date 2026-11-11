@@ -46,7 +46,7 @@ Este arquivo divide a implementação em entregas progressivas para execução p
 
 ### T-03 — Implementar o serviço de acesso à API
 
-- **Status:** Pendente
+- **Status:** Concluída
 - **Depende de:** T-02
 - **Referências:** PRD §4 (RF-01, RF-05), §6 (Integração)
 - **Objetivo:** disponibilizar a busca de streamers por um módulo de serviço separado da interface.
