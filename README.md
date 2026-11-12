@@ -2,7 +2,7 @@
 
 Aplicação web que lista os streamers do Chess.com em cards. Projeto feito com React, TypeScript e Vite, com deploy automático no GitHub Pages via GitHub Actions.
 
-🔗 **Demo:** [https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/](https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/)
+🔗 **Demo:** https://estevao7.github.io/live-streamers/
 
 ---
 
