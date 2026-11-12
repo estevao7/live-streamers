@@ -1,7 +1,7 @@
 export type ApiStreamer = {
   username?: string
   avatar?: string
-  'twitch-url'?: string
+  'twitch_url'?: string
   is_live?: boolean
 }
 

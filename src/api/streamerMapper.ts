@@ -12,7 +12,7 @@ function parseStreamer(value: unknown, index: number): Streamer {
   const stringFields: (keyof ApiStreamer)[] = [
     'username',
     'avatar',
-    'twitch-url',
+    'twitch_url',
   ]
 
   for (const field of stringFields) {
@@ -32,8 +32,8 @@ function parseStreamer(value: unknown, index: number): Streamer {
   return {
     ...(typeof value.username === 'string' && { username: value.username }),
     ...(typeof value.avatar === 'string' && { avatar: value.avatar }),
-      ...(typeof value['twitch-url'] === 'string' && {
-        twitchUrl: value['twitch-url'],
+      ...(typeof value['twitch_url'] === 'string' && {
+        twitchUrl: value['twitch_url'],
       }),
     ...(typeof value.is_live === 'boolean' && { isLive: value.is_live }),
   }

@@ -108,7 +108,7 @@ Este arquivo divide a implementação em entregas progressivas para execução p
 
 ### T-07 — Fazer a verificação final de aceite
 
-- **Status:** Pendente
+- **Status:** Concluída
 - **Depende de:** T-06
 - **Referências:** PRD §5, §8 e §9 (Critérios de aceite)
 - **Objetivo:** conferir a experiência implementada ponta a ponta e corrigir somente problemas dentro do escopo do PRD.

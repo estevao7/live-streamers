@@ -1,0 +1,23 @@
+[33mcommit 28711199123886d0380c3040e7528359ee5b67ec[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Estêvão Perez <96901423+estevao7@users.noreply.github.com>
+Date:   Tue Nov 10 21:15:26 2026 -0300
+
+    implement streamer API integration
+
+[33mcommit ba6d93895caa483c2d8502598dba2410fda3efd1[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Estêvão Perez <96901423+estevao7@users.noreply.github.com>
+Date:   Mon Nov 9 23:31:53 2026 -0300
+
+    feat: implement streamer data normalization
+
+[33mcommit cab292275e2b723852dc5e2c2100d6fb4767dee0[m
+Author: Estêvão Perez <96901423+estevao7@users.noreply.github.com>
+Date:   Mon Nov 9 20:17:20 2026 -0300
+
+    chore: setup automated tests for T-01
+
+[33mcommit a7523b144b78926c67bc32f9388671f525633485[m
+Author: Estêvão Perez <96901423+estevao7@users.noreply.github.com>
+Date:   Mon Nov 9 00:56:23 2026 -0300
+
+    I set up the project using Vite, and created the PRD and the tasks
