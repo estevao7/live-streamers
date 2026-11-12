@@ -32,7 +32,7 @@ describe('fetchStreamers', () => {
     ])
     expect(fetchMock).toHaveBeenCalledWith(
       'https://api.chess.com/pub/streamers',
-      { method: 'GET', signal: undefined },
+      { signal: undefined },
     )
   })
 
@@ -77,7 +77,7 @@ describe('fetchStreamers', () => {
     await expect(fetchStreamers(controller.signal)).rejects.toBe(abortError)
     expect(fetchMock).toHaveBeenCalledWith(
       'https://api.chess.com/pub/streamers',
-      { method: 'GET', signal: controller.signal },
+      { signal: controller.signal },
     )
   })
 })

@@ -61,7 +61,7 @@ Este arquivo divide a implementação em entregas progressivas para execução p
 
 ### T-04 — Criar a estrutura visual e o tema da página
 
-- **Status:** Pendente
+- **Status:** Concluída
 - **Depende de:** nenhuma
 - **Referências:** PRD §8 (Diretrizes visuais)
 - **Objetivo:** substituir a estrutura de demonstração inicial por uma base visual adequada à página de streamers.
@@ -76,7 +76,7 @@ Este arquivo divide a implementação em entregas progressivas para execução p
 
 ### T-05 — Implementar o card de streamer
 
-- **Status:** Pendente
+- **Status:** Concluída
 - **Depende de:** T-02 e T-04
 - **Referências:** PRD §4 (RF-02, RF-03, RF-04), §8 (Composição e Interações e acessibilidade visual)
 - **Objetivo:** criar um componente reutilizável em `src/components/` para exibir um streamer.
@@ -92,7 +92,7 @@ Este arquivo divide a implementação em entregas progressivas para execução p
 
 ### T-06 — Integrar carregamento, lista e estados da página
 
-- **Status:** Pendente
+- **Status:** Concluída
 - **Depende de:** T-03, T-04 e T-05
 - **Referências:** PRD §4 (RF-01 a RF-05), §5 (Requisitos não funcionais), §7 (Estado e ciclo de vida)
 - **Objetivo:** conectar a página ao serviço e apresentar os estados de carregamento, sucesso, lista vazia e falha.

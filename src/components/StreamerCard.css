@@ -1,0 +1,118 @@
+.streamer-card {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  background: var(--color-surface);
+  box-shadow: 0 4px 16px rgb(40 36 50 / 5%);
+}
+
+.streamer-card__avatar {
+  width: 72px;
+  height: 72px;
+  flex: 0 0 72px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  object-fit: cover;
+}
+
+.streamer-card__avatar--fallback {
+  display: grid;
+  place-items: center;
+  color: var(--color-accent-strong);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.streamer-card__details {
+  min-width: 0;
+  flex: 1;
+}
+
+.streamer-card__name {
+  overflow-wrap: anywhere;
+  margin: 0;
+  color: var(--color-heading);
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.streamer-card__status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0 0;
+  color: var(--color-text-muted);
+  font-size: 0.9375rem;
+  line-height: 1.4;
+}
+
+.streamer-card__status-indicator {
+  width: 9px;
+  height: 9px;
+  flex: 0 0 9px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.streamer-card__status--live {
+  color: #b42332;
+}
+
+.streamer-card__status--live .streamer-card__status-indicator {
+  background: #d92d3a;
+}
+
+.streamer-card__link {
+  flex: 0 0 auto;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: var(--color-accent);
+  color: var(--color-accent-strong);
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  text-decoration: none;
+  transition:
+    background-color 140ms ease,
+    color 140ms ease;
+}
+
+.streamer-card__link:hover {
+  background: var(--color-accent-strong);
+  color: var(--color-surface);
+}
+
+.streamer-card__link:focus-visible {
+  outline: 3px solid var(--color-accent-strong);
+  outline-offset: 3px;
+}
+
+@media (max-width: 480px) {
+  .streamer-card {
+    flex-wrap: wrap;
+    gap: 14px;
+    padding: 16px;
+  }
+
+  .streamer-card__avatar {
+    width: 60px;
+    height: 60px;
+    flex-basis: 60px;
+  }
+
+  .streamer-card__link {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .streamer-card__link {
+    transition: none;
+  }
+}
